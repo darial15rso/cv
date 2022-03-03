@@ -716,5 +716,22 @@ there.
 }
 
 body {
-  background-color: #acacac;
+  background-color: #f3f3f3;
 }
+
+li {
+  list-style-type: square;
+}
+
+@media only screen and (max-device-width: 480px) {
+  font-size: 50%;
+}
+
+@media only screen and (max-device-width: 768px) {
+  font-size: 70%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  font-size: 100%;
+}
+
